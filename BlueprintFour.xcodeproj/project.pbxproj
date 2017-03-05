@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57BED14F1C835D2600D50720 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BED14E1C835D2600D50720 /* ball.png */; };
+		74244F161C83410500A84FDB /* PlayAndPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F151C83410500A84FDB /* PlayAndPassViewController.swift */; };
+		74244F181C834E3E00A84FDB /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F171C834E3E00A84FDB /* Board.swift */; };
+		74244F1A1C834E8100A84FDB /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F191C834E8100A84FDB /* Chip.swift */; };
+		74244F1C1C83706400A84FDB /* OnlineMultiplayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F1B1C83706400A84FDB /* OnlineMultiplayerTableViewController.swift */; };
+		74244F231C8375F700A84FDB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F1D1C8375F700A84FDB /* Bolts.framework */; };
+		74244F241C8375F700A84FDB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F1E1C8375F700A84FDB /* Parse.framework */; };
+		74244F251C8375F700A84FDB /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F1F1C8375F700A84FDB /* ParseFacebookUtils.framework */; };
+		74244F261C8375F700A84FDB /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F201C8375F700A84FDB /* ParseFacebookUtilsV4.framework */; };
+		74244F271C8375F700A84FDB /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F211C8375F700A84FDB /* ParseTwitterUtils.framework */; };
+		74244F281C8375F700A84FDB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F221C8375F700A84FDB /* ParseUI.framework */; };
+		74244F2A1C83765700A84FDB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F291C83765700A84FDB /* AudioToolbox.framework */; };
+		74244F2C1C83766800A84FDB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F2B1C83766800A84FDB /* CFNetwork.framework */; };
+		74244F2E1C83768200A84FDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F2D1C83768200A84FDB /* CoreGraphics.framework */; };
+		74244F301C83768900A84FDB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F2F1C83768900A84FDB /* CoreLocation.framework */; };
+		74244F321C83769400A84FDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F311C83769400A84FDB /* QuartzCore.framework */; };
+		74244F341C83769A00A84FDB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F331C83769A00A84FDB /* Security.framework */; };
+		74244F361C8376A500A84FDB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F351C8376A500A84FDB /* StoreKit.framework */; };
+		74244F381C8376AE00A84FDB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F371C8376AE00A84FDB /* SystemConfiguration.framework */; };
+		74244F3A1C8376B900A84FDB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F391C8376B900A84FDB /* libz.tbd */; };
+		74244F3C1C8376FE00A84FDB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74244F3B1C8376FE00A84FDB /* libsqlite3.tbd */; };
+		74244F3E1C8377CD00A84FDB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F3D1C8377CD00A84FDB /* Game.swift */; };
+		74244F401C83783500A84FDB /* U2UInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F3F1C83783500A84FDB /* U2UInteraction.swift */; };
+		74244F421C837B9A00A84FDB /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F411C837B9A00A84FDB /* GameCell.swift */; };
+		74244F441C837CB600A84FDB /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F431C837CB600A84FDB /* Label.swift */; };
+		74244F471C83935000A84FDB /* MultiplayerGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F461C83935000A84FDB /* MultiplayerGameViewController.swift */; };
 		74F1F6201C83287100B997C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F1F61F1C83287100B997C9 /* AppDelegate.swift */; };
 		74F1F6221C83287100B997C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F1F6211C83287100B997C9 /* ViewController.swift */; };
 		74F1F6251C83287100B997C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F1F6231C83287100B997C9 /* Main.storyboard */; };
@@ -34,6 +60,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57BED14E1C835D2600D50720 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		74244F151C83410500A84FDB /* PlayAndPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAndPassViewController.swift; sourceTree = "<group>"; };
+		74244F171C834E3E00A84FDB /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		74244F191C834E8100A84FDB /* Chip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
+		74244F1B1C83706400A84FDB /* OnlineMultiplayerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineMultiplayerTableViewController.swift; sourceTree = "<group>"; };
+		74244F1D1C8375F700A84FDB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		74244F1E1C8375F700A84FDB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		74244F1F1C8375F700A84FDB /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		74244F201C8375F700A84FDB /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		74244F211C8375F700A84FDB /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		74244F221C8375F700A84FDB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		74244F291C83765700A84FDB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		74244F2B1C83766800A84FDB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		74244F2D1C83768200A84FDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74244F2F1C83768900A84FDB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		74244F311C83769400A84FDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		74244F331C83769A00A84FDB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		74244F351C8376A500A84FDB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		74244F371C8376AE00A84FDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		74244F391C8376B900A84FDB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		74244F3B1C8376FE00A84FDB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		74244F3D1C8377CD00A84FDB /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		74244F3F1C83783500A84FDB /* U2UInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = U2UInteraction.swift; sourceTree = "<group>"; };
+		74244F411C837B9A00A84FDB /* GameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		74244F431C837CB600A84FDB /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		74244F461C83935000A84FDB /* MultiplayerGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerGameViewController.swift; sourceTree = "<group>"; };
 		74F1F61C1C83287100B997C9 /* BlueprintFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueprintFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F1F61F1C83287100B997C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74F1F6211C83287100B997C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +106,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74244F3C1C8376FE00A84FDB /* libsqlite3.tbd in Frameworks */,
+				74244F3A1C8376B900A84FDB /* libz.tbd in Frameworks */,
+				74244F381C8376AE00A84FDB /* SystemConfiguration.framework in Frameworks */,
+				74244F361C8376A500A84FDB /* StoreKit.framework in Frameworks */,
+				74244F341C83769A00A84FDB /* Security.framework in Frameworks */,
+				74244F321C83769400A84FDB /* QuartzCore.framework in Frameworks */,
+				74244F301C83768900A84FDB /* CoreLocation.framework in Frameworks */,
+				74244F2E1C83768200A84FDB /* CoreGraphics.framework in Frameworks */,
+				74244F2C1C83766800A84FDB /* CFNetwork.framework in Frameworks */,
+				74244F2A1C83765700A84FDB /* AudioToolbox.framework in Frameworks */,
+				74244F281C8375F700A84FDB /* ParseUI.framework in Frameworks */,
+				74244F241C8375F700A84FDB /* Parse.framework in Frameworks */,
+				74244F231C8375F700A84FDB /* Bolts.framework in Frameworks */,
+				74244F261C8375F700A84FDB /* ParseFacebookUtilsV4.framework in Frameworks */,
+				74244F251C8375F700A84FDB /* ParseFacebookUtils.framework in Frameworks */,
+				74244F271C8375F700A84FDB /* ParseTwitterUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +145,22 @@
 		74F1F6131C83287100B997C9 = {
 			isa = PBXGroup;
 			children = (
+				74244F3B1C8376FE00A84FDB /* libsqlite3.tbd */,
+				74244F391C8376B900A84FDB /* libz.tbd */,
+				74244F371C8376AE00A84FDB /* SystemConfiguration.framework */,
+				74244F351C8376A500A84FDB /* StoreKit.framework */,
+				74244F331C83769A00A84FDB /* Security.framework */,
+				74244F311C83769400A84FDB /* QuartzCore.framework */,
+				74244F2F1C83768900A84FDB /* CoreLocation.framework */,
+				74244F2D1C83768200A84FDB /* CoreGraphics.framework */,
+				74244F2B1C83766800A84FDB /* CFNetwork.framework */,
+				74244F291C83765700A84FDB /* AudioToolbox.framework */,
+				74244F1D1C8375F700A84FDB /* Bolts.framework */,
+				74244F1E1C8375F700A84FDB /* Parse.framework */,
+				74244F1F1C8375F700A84FDB /* ParseFacebookUtils.framework */,
+				74244F201C8375F700A84FDB /* ParseFacebookUtilsV4.framework */,
+				74244F211C8375F700A84FDB /* ParseTwitterUtils.framework */,
+				74244F221C8375F700A84FDB /* ParseUI.framework */,
 				74F1F61E1C83287100B997C9 /* BlueprintFour */,
 				74F1F6331C83287300B997C9 /* BlueprintFourTests */,
 				74F1F63E1C83287300B997C9 /* BlueprintFourUITests */,
@@ -103,6 +187,16 @@
 				74F1F6261C83287200B997C9 /* Assets.xcassets */,
 				74F1F6281C83287200B997C9 /* LaunchScreen.storyboard */,
 				74F1F62B1C83287200B997C9 /* Info.plist */,
+				74244F151C83410500A84FDB /* PlayAndPassViewController.swift */,
+				74244F171C834E3E00A84FDB /* Board.swift */,
+				74244F191C834E8100A84FDB /* Chip.swift */,
+				57BED14E1C835D2600D50720 /* ball.png */,
+				74244F1B1C83706400A84FDB /* OnlineMultiplayerTableViewController.swift */,
+				74244F3D1C8377CD00A84FDB /* Game.swift */,
+				74244F3F1C83783500A84FDB /* U2UInteraction.swift */,
+				74244F411C837B9A00A84FDB /* GameCell.swift */,
+				74244F431C837CB600A84FDB /* Label.swift */,
+				74244F461C83935000A84FDB /* MultiplayerGameViewController.swift */,
 			);
 			path = BlueprintFour;
 			sourceTree = "<group>";
@@ -231,6 +325,7 @@
 			files = (
 				74F1F62A1C83287200B997C9 /* LaunchScreen.storyboard in Resources */,
 				74F1F6271C83287200B997C9 /* Assets.xcassets in Resources */,
+				57BED14F1C835D2600D50720 /* ball.png in Resources */,
 				74F1F6251C83287100B997C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74244F161C83410500A84FDB /* PlayAndPassViewController.swift in Sources */,
 				74F1F6221C83287100B997C9 /* ViewController.swift in Sources */,
+				74244F421C837B9A00A84FDB /* GameCell.swift in Sources */,
+				74244F471C83935000A84FDB /* MultiplayerGameViewController.swift in Sources */,
+				74244F3E1C8377CD00A84FDB /* Game.swift in Sources */,
+				74244F401C83783500A84FDB /* U2UInteraction.swift in Sources */,
+				74244F181C834E3E00A84FDB /* Board.swift in Sources */,
+				74244F1A1C834E8100A84FDB /* Chip.swift in Sources */,
 				74F1F6201C83287100B997C9 /* AppDelegate.swift in Sources */,
+				74244F441C837CB600A84FDB /* Label.swift in Sources */,
+				74244F1C1C83706400A84FDB /* OnlineMultiplayerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +503,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BlueprintFour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MADClub.BlueprintFour;
@@ -410,6 +518,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BlueprintFour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MADClub.BlueprintFour;
@@ -484,6 +596,7 @@
 				74F1F6461C83287400B997C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74F1F6471C83287400B997C9 /* Build configuration list for PBXNativeTarget "BlueprintFourTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +605,7 @@
 				74F1F6491C83287400B997C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74F1F64A1C83287400B997C9 /* Build configuration list for PBXNativeTarget "BlueprintFourUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +614,7 @@
 				74F1F64C1C83287400B997C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
